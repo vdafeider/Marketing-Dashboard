@@ -12,7 +12,7 @@
 
 
 ## Примітки:
-1. Таблиця календар прив'язана до impressions (перший event в funnel)
+1. Таблиця календар прив'язана до усіх fact tables in funnel
 2. Profit (можна знайти в custom card) розрахований як Marketing Profit ( [Total Revenue] - [Marketing Cost] ), оскільки, як правило, в маркетингових даних відсутні дані про зарплати і операційні витрати для розрахунку справжнього Company Profit
 3. RLS не активований, інакше Microsoft server видалить public link. Для налаштування: У Power BI можна задати RLS прямо на dim_geo через DAX (наприклад, dim_geo[geo] IN {"US","DE"}) — тоді фільтр пошириться на всі fact-таблиці через зв’язки.
 
